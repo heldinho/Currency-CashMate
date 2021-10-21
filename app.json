@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cashmate",
-    "slug": "snack-723b41ef-8ea9-4185-86b1-661098500a58",
+    "name": "currency-cashmate",
+    "slug": "currency-cashmate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,7 +13,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
