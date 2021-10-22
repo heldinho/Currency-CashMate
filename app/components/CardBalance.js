@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { Entypo } from "@expo/vector-icons";
+import { wp, hp } from "../utils";
 
 export default function CardBalance() {
   return (
@@ -23,6 +24,8 @@ export default function CardBalance() {
 
 const styles = StyleSheet.create({
   container: {
+    width: wp("90%"),
+    alignSelf: "center",
     marginTop: 20,
     padding: 20,
     backgroundColor: "#353739",
@@ -31,11 +34,11 @@ const styles = StyleSheet.create({
   },
   amount: {
     color: "#fff",
-    fontSize: 24,
+    fontSize: hp("3.5%"),
   },
   button: {
     marginTop: 10,
-    height: 45,
+    height: hp("7.5%"),
     borderRadius: 10,
     backgroundColor: "#8D8958",
     justifyContent: "center",
