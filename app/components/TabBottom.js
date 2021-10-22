@@ -15,7 +15,7 @@ export default function TabBottom() {
 
   return (
     <View style={styles.container}>
-      {tabs.map((item) => (
+      {tabs.map(item => (
         <TouchableOpacity
           key={item.key}
           style={styles.tabs}

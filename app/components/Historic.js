@@ -41,7 +41,7 @@ export default function Historic() {
     ],
   };
 
-  const fnGestureHandler = (e) => {
+  const fnGestureHandler = e => {
     if (e.nativeEvent.contentOffset.y > 0) fnBringUpActionSheet();
     else fnHideTheActionSheet();
   };
